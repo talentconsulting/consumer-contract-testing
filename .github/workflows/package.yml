@@ -7,7 +7,7 @@ name: Docker image creation
 
 on:
   push:
-    # branches: [ "master", "main" ]
+    branches: [ "master", "main" ]
     # Publish semver tags as releases.
     # tags: [ 'v*.*.*' ]
     paths: [ 'docker-image/**/*' ]
