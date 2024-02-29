@@ -18,7 +18,7 @@ Consumer Contract testing repository that attempts to show a simple approach to 
 The code contains the Dockerfile to push up an apckli image. This image is used to testing an 
 example consumer / service communicating over REST
 
-![consumer based contract testing](https://github.com/talentconsulting/engineering.consumer-based-contract-testing/blob/main/contract%20testing.drawio.png)
+![consumer based contract testing](contract%20testing.drawio.png)
 
 # What is a consumer contract test?
 
@@ -29,3 +29,7 @@ The provider can create a test suite to validate these obligations. This lets th
 not affect any consumer, and pinpoint consumers that will be affected by a required change for deeper planning and discussion._
 
 The examples provide an insight into how you would use this docker container to outside in test your services with [apickli](https://github.com/apickli/apickli)
+
+# Example
+
+An example of something that uses this docker image to perform outside in consumer contract tests can be found [here](https://github.com/talentconsulting/service-catalog/blob/main/test.sh)
