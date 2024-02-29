@@ -4,7 +4,7 @@
 This repository contains the docker image based on the apickli source. The idea here is that you can create a simple service with a REST api and 
 use the docker image created under `docker` directory which is stored in the talent consulting [packages](https://github.com/talentconsulting/consumer-based-contract-testing/pkgs/container/engineering.consumer-based-contract-testing)
 
-Use this docker image to test outside in an API on a service developed.
+This docker image can be used to outside-in test a REST API service, with a rich language of functionality provided by [apickli](https://github.com/apickli/apickli)
 
 # Requirements
 
